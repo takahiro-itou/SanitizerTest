@@ -1,6 +1,6 @@
 #if 0
 program=tadasii;
-g++ -fsanitize=address -g -o ${program} ${program}.cpp
+g++ -fsanitize=address -g -o ${program}.exe ${program}.cpp
 exit 0
 #endif
 
